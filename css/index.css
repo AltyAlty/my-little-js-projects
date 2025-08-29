@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+body {
+    background-color: #e7ba86;
+}
+
+a {
+    color: #7d5222;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #ff4500;
+    text-decoration: underline;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 120px;
+
+    /*border: 1px red solid;*/
+}
+
+.apps-container,
+.games-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 21%;
+    padding: 15px;
+
+    border-radius: 6px;
+    background-color: #fde3d2;
+    /*border: 1px red solid;*/
+}
+
+.apps-title-container,
+.games-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    margin-bottom: 8px;
+
+    color: #7d5222;
+    font-size: 22px;
+
+
+    /*border: 1px red solid;*/
+}
+
+.app-container,
+.game-container {
+    width: 100%;
+    margin-bottom: 5px;
+
+    color: #7d5222;
+    font-size: 17px;
+
+    /*border: 1px red solid;*/
+}
