@@ -28,8 +28,6 @@ a:active {
     justify-content: center;
 
     margin-top: 120px;
-
-    /*border: 1px red solid;*/
 }
 
 .apps-container,
@@ -45,7 +43,6 @@ a:active {
 
     border-radius: 6px;
     background-color: #fde3d2;
-    /*border: 1px red solid;*/
 }
 
 .apps-title-container,
@@ -60,9 +57,6 @@ a:active {
 
     color: #7d5222;
     font-size: 22px;
-
-
-    /*border: 1px red solid;*/
 }
 
 .app-container,
@@ -72,6 +66,4 @@ a:active {
 
     color: #7d5222;
     font-size: 17px;
-
-    /*border: 1px red solid;*/
 }
